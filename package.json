@@ -1,0 +1,20 @@
+{
+  "name": "react_nuvalence",
+  "version": "1.0.0",
+  "description": "Web frontend client of an “Address Book” application",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "keywords": [
+    "React",
+    "Frontend",
+    "JavaScript",
+    "AddressBook",
+    "jest",
+    "testing",
+    "React-testing"
+  ],
+  "author": "Debasish Mozumder",
+  "license": "ISC"
+}
