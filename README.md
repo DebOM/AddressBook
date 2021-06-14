@@ -4,16 +4,34 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 How can you locally run this app? 
 
-In the project directory, run the follwing script to install all the dependencies packages:
+There are two ways you can run this app on your local machine;
 
-### `yarn install`
+<br /> 
 
-Now you can run following script runs the app in the development mode.\:
-### `yarn start`
+**Approach** 1: Using publicly hosted [Docker Image](https://hub.docker.com/r/dmozumd/address-book).
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Pull the image from docker hub
+    #### `docker pull dmozumd/address-book`
 
-The page will reload if you make edits.\
+* Run the docker image on your machine in detach mode
+   #### `docker run -it -d -p 3000:80/tcp --name address-book dmozumd/address-book:latest`
+
+* On your browser hit the following link => http://localhost:3000 the Address book app should be running normally as expected
+
+<br /> 
+
+**Approach** 2: Run this app locally using Yarn / NPM 
+
+* In the project directory, run the follwing script to install all the dependencies packages:
+
+    #### `yarn install`
+* Now you can run following script runs the app in the development mode.\:
+    ### `yarn start`
+
+* Open [http://localhost:3000](http://localhost:3000) to view the app running in the browser.
+
+<br />
+The app home page will hot reload if you make code edits.
 You will also see any lint errors in the console.
 
 Few test cases writen to test the few components: 
