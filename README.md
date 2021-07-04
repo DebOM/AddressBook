@@ -1,6 +1,6 @@
 # A sample React project for enterprise boiler plate project setup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstraped with [Create React App](https://github.com/facebook/create-react-app).
 
 How can you locally run this app? 
 
